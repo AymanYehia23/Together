@@ -271,9 +271,7 @@ class EditProfileState extends State<EditProfile> {
                            color: Color(0xFFFBC02D),
                            onPressed: () {
                              setState(() {
-                               if(url!= docs['imageUrl']){
-                                 updateUserImage();
-                               }
+                               updateUserImage();
                                uploadFile();
                                updateUserdata();
                              });
